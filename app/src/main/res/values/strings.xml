@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Complain Form</string>
+    <string name="indian_institute_of_technology_roorkee">INDIAN INSTITUTE OF TECHNOLOGY ROORKEE</string>
+    <string name="complaint">COMPLAINT</string>
+    <string name="date">DATE</string>
+    <string name="open">OPEN</string>
+    <string name="close">CLOSE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

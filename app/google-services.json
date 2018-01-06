@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "446039371576",
+    "firebase_url": "https://complain-box-73fac.firebaseio.com",
+    "project_id": "complain-box-73fac",
+    "storage_bucket": "complain-box-73fac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446039371576:android:d7553d07c8489ae8",
+        "android_client_info": {
+          "package_name": "com.example.pc.complainform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446039371576-5j04o2i3ojjuttbf59686gcr4eoa2rjr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pc.complainform",
+            "certificate_hash": "0b4badf8585362740054d66847ad8bba8b52b277"
+          }
+        },
+        {
+          "client_id": "446039371576-isfkouviqadvfjt1lgvm8vhnefakv94p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZLxVSMqLpT0TRivyrmTTWBmEnAqOoOMk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446039371576-isfkouviqadvfjt1lgvm8vhnefakv94p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

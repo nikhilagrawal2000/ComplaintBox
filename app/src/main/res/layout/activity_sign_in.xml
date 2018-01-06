@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_wallpaper"
+    tools:context="com.example.pc.complainform.sign_in"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+    <TextView
+        android:id="@+id/sign_in1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Sign In"
+        android:textAlignment="center"
+        android:textColor="#FFDEAD"
+        android:textSize="36sp"
+        android:fontFamily="cursive"/>
+
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_below="@+id/sign_in1"
+        android:layout_marginTop="56dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="#ffdead"/>
+
+    <EditText
+        android:id="@+id/password3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/username1"
+        android:layout_below="@+id/username1"
+        android:ems="10"
+        android:hint="Password"
+        android:textColor="#ffdead"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_https_black_24dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/sign_in2"
+        style="@android:style/Widget.Material.Light.Button.Toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/password3"
+        android:layout_alignStart="@+id/password3"
+        android:layout_below="@+id/password3"
+        android:layout_marginTop="11dp"
+        android:text="Sign In"
+        android:background="@drawable/cornered_button"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sign_in2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="   If already not registered"
+        android:textAlignment="center"
+        android:textColor="#F5F5F5"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/sign_up3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/sign_in2"
+        android:layout_alignStart="@+id/sign_in2"
+        android:layout_below="@+id/textView10"
+        android:layout_marginTop="20dp"
+        android:text="Sign Up"
+        android:background="@drawable/cornered_button"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+
+</RelativeLayout>
